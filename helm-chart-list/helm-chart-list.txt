@@ -1,0 +1,279 @@
+├── sx-argo-rollouts
+│   ✓ argo-rollouts 2.40.5 ok
+│   │   └── argo-rollouts
+│   │   │   No dependencies
+├── argocd
+│   ✓ argo-cd 9.4.0 ok
+│   │   ├── argo-cd
+│   │   │   📦 redis-ha 4.34.11 unpacked
+│   │   │   │   └── redis-ha
+│   │   │   │   │   No dependencies
+├── sx-backstage
+│   ✓ backstage 2.6.3 ok
+│   ✓ cluster 0.4.0 ok
+│   │   ├── backstage
+│   │   │   📦 common 2.10.0 unpacked
+│   │   │   📦 postgresql 12.10.0 unpacked
+│   │   │   │   ├── common
+│   │   │   │   │   No dependencies
+│   │   │   │   ├── postgresql
+│   │   │   │   │   📦 common 2.x.x unpacked
+│   │   │   │   │   │   ├── common
+│   │   │   │   │   │   │   No dependencies
+│   │   └── cluster
+│   │   │   No dependencies
+├── sx-cert-manager
+│   ✓ cert-manager v1.19.3 ok
+│   │   └── cert-manager
+│   │   │   No dependencies
+├── sx-cnpg
+│   ✓ cloudnative-pg 0.27.0 ok
+│   ✓ pgadmin4 1.57.0 ok
+│   │   ├── cloudnative-pg
+│   │   │   📦 cluster (monitoring) 0.0 unpacked
+│   │   │   │   ├── cluster
+│   │   │   │   │   No dependencies
+│   │   └── pgadmin4
+│   │   │   No dependencies
+├── sx-crossplane
+│   ✓ crossplane 2.1.4 ok
+│   │   └── crossplane
+│   │   │   No dependencies
+├── sx-external-dns
+│   ✓ external-dns 1.20.0 ok
+│   │   └── external-dns
+│   │   │   No dependencies
+├── sx-external-secrets
+│   ✓ external-secrets (external-secrets) 1.3.2 ok
+│   │   ├── external-secrets
+│   │   │   📦 bitwarden-sdk-server v0.5.2 unpacked
+│   │   │   │   └── bitwarden-sdk-server
+│   │   │   │   │   No dependencies
+├── sx-falco
+│   ✓ falco 4.22.0 ok
+│   ✓ falco-exporter 0.12.2 ok
+│   ✓ k8s-metacollector 0.2.0 ok
+│   │   ├── falco
+│   │   │   📦 falcosidekick 0.9.* unpacked
+│   │   │   📦 k8s-metacollector 0.1.* unpacked
+│   │   │   📦 falco-talon 0.2.* unpacked
+│   │   │   │   ├── falco-talon
+│   │   │   │   │   No dependencies
+│   │   │   │   ├── falcosidekick
+│   │   │   │   │   No dependencies
+│   │   │   │   ├── k8s-metacollector
+│   │   │   │   │   No dependencies
+│   │   ├── falco-exporter
+│   │   │   No dependencies
+│   │   └── k8s-metacollector
+│   │   │   No dependencies
+├── sx-grafana
+│   ✓ grafana (grafana) 10.7.0 ok
+│   ✓ cluster 0.4.0 ok
+│   │   ├── cluster
+│   │   │   No dependencies
+│   │   └── grafana
+│   │   │   No dependencies
+├── sx-ingress-nginx
+│   ✓ ingress-nginx 4.14.3 ok
+│   │   └── ingress-nginx
+│   │   │   No dependencies
+├── sx-k8s-monitoring
+│   ✓ k8s-monitoring (k8s-monitoring) 3.7.5 ok
+│   │   ├── k8s-monitoring
+│   │   │   📦 feature-annotation-autodiscovery (annotationAutodiscovery) 1.0.0 unpacked
+│   │   │   📦 feature-application-observability (applicationObservability) 1.0.0 unpacked
+│   │   │   📦 feature-auto-instrumentation (autoInstrumentation) 1.0.0 unpacked
+│   │   │   📦 feature-cluster-events (clusterEvents) 1.0.0 unpacked
+│   │   │   📦 feature-cluster-metrics (clusterMetrics) 1.0.0 unpacked
+│   │   │   📦 feature-integrations (integrations) 1.0.0 unpacked
+│   │   │   📦 feature-node-logs (nodeLogs) 1.0.0 unpacked
+│   │   │   📦 feature-pod-logs (podLogs) 1.0.0 unpacked
+│   │   │   📦 feature-pod-logs-via-kubernetes-api (podLogsViaKubernetesApi) 1.0.0 unpacked
+│   │   │   📦 feature-profiling (profiling) 1.0.0 unpacked
+│   │   │   📦 feature-profiles-receiver (profilesReceiver) 1.0.0 unpacked
+│   │   │   📦 feature-prometheus-operator-objects (prometheusOperatorObjects) 1.0.0 unpacked
+│   │   │   📦 alloy-operator 0.4.1 unpacked
+│   │   │   │   ├── alloy-operator
+│   │   │   │   │   📦 alloy-crd 1.0.0 unpacked
+│   │   │   │   │   📦 podlogs-crd 0.0.0 unpacked
+│   │   │   │   │   │   ├── alloy-crd
+│   │   │   │   │   │   │   No dependencies
+│   │   │   │   │   │   ├── podlogs-crd
+│   │   │   │   │   │   │   No dependencies
+│   │   │   │   ├── feature-annotation-autodiscovery
+│   │   │   │   │   No dependencies
+│   │   │   │   ├── feature-application-observability
+│   │   │   │   │   No dependencies
+│   │   │   │   ├── feature-auto-instrumentation
+│   │   │   │   │   📦 beyla 1.10.4 unpacked
+│   │   │   │   │   │   ├── beyla
+│   │   │   │   │   │   │   No dependencies
+│   │   │   │   ├── feature-cluster-events
+│   │   │   │   │   No dependencies
+│   │   │   │   ├── feature-cluster-metrics
+│   │   │   │   │   📦 kube-state-metrics 6.4.2 unpacked
+│   │   │   │   │   📦 prometheus-node-exporter (node-exporter) 4.51.0 unpacked
+│   │   │   │   │   📦 prometheus-windows-exporter (windows-exporter) 0.12.2 unpacked
+│   │   │   │   │   📦 kepler 0.6.1 unpacked
+│   │   │   │   │   📦 opencost 2.3.2 unpacked
+│   │   │   │   │   │   ├── kepler
+│   │   │   │   │   │   │   No dependencies
+│   │   │   │   │   │   ├── kube-state-metrics
+│   │   │   │   │   │   │   No dependencies
+│   │   │   │   │   │   ├── opencost
+│   │   │   │   │   │   │   No dependencies
+│   │   │   │   │   │   ├── prometheus-node-exporter
+│   │   │   │   │   │   │   No dependencies
+│   │   │   │   │   │   ├── prometheus-windows-exporter
+│   │   │   │   │   │   │   No dependencies
+│   │   │   │   ├── feature-integrations
+│   │   │   │   │   No dependencies
+│   │   │   │   ├── feature-node-logs
+│   │   │   │   │   No dependencies
+│   │   │   │   ├── feature-pod-logs
+│   │   │   │   │   No dependencies
+│   │   │   │   ├── feature-pod-logs-via-kubernetes-api
+│   │   │   │   │   No dependencies
+│   │   │   │   ├── feature-profiles-receiver
+│   │   │   │   │   No dependencies
+│   │   │   │   ├── feature-profiling
+│   │   │   │   │   No dependencies
+│   │   │   │   ├── feature-prometheus-operator-objects
+│   │   │   │   │   📦 prometheus-operator-crds (crds) 26.0.0 unpacked
+│   │   │   │   │   │   ├── prometheus-operator-crds
+│   │   │   │   │   │   │   📦 crds 0.0.0 unpacked
+│   │   │   │   │   │   │   │   └── crds
+│   │   │   │   │   │   │   │   │   No dependencies
+├── sx-kargo
+│   ✓ kargo 1.9.2 ok
+│   │   └── kargo
+│   │   │   No dependencies
+├── sx-keycloak
+│   ✓ cluster 0.4.0 ok
+│   │   └── cluster
+│   │   │   No dependencies
+├── sx-komoplane
+│   ✓ komoplane 0.1.6 ok
+│   │   └── komoplane
+│   │   │   No dependencies
+├── sx-kubecost
+│   ✓ cost-analyzer (cost-analyzer) 2.9.6 ok
+│   │   ├── cost-analyzer
+│   │   │   📦 finops-agent (finopsagent) v1.0.8 unpacked
+│   │   │   │   ├── finops-agent
+│   │   │   │   │   📦 common 2.x.x unpacked
+│   │   │   │   │   │   └── common
+│   │   │   │   │   │   │   No dependencies
+└── sx-kubevirt-manager
+│   No dependencies
+└── sx-kubevirt
+│   No dependencies
+├── sx-kyverno
+│   ✓ kyverno 3.7.0 ok
+│   │   ├── kyverno
+│   │   │   📦 grafana 3.7.0 unpacked
+│   │   │   📦 crds 3.7.0 unpacked
+│   │   │   📦 kyverno-api 0.0.1-alpha.2 unpacked
+│   │   │   📦 openreports 0.1.0 unpacked
+│   │   │   📦 reports-server 0.1.6 unpacked
+│   │   │   │   ├── crds
+│   │   │   │   │   No dependencies
+│   │   │   │   ├── grafana
+│   │   │   │   │   No dependencies
+│   │   │   │   ├── kyverno-api
+│   │   │   │   │   No dependencies
+│   │   │   │   ├── openreports
+│   │   │   │   │   No dependencies
+│   │   │   │   ├── reports-server
+│   │   │   │   │   📦 postgresql 13.4.1 unpacked
+│   │   │   │   │   │   ├── postgresql
+│   │   │   │   │   │   │   📦 common 2.x.x unpacked
+│   │   │   │   │   │   │   │   └── common
+│   │   │   │   │   │   │   │   │   No dependencies
+├── sx-loki
+│   ✓ loki (loki) 6.51.0 ok
+│   │   ├── loki
+│   │   │   📦 minio (minio) 5.4.0 unpacked
+│   │   │   📦 grafana-agent-operator (grafana-agent-operator) 0.5.2 unpacked
+│   │   │   📦 rollout-operator (rollout_operator) 0.40.0 unpacked
+│   │   │   │   ├── grafana-agent-operator
+│   │   │   │   │   No dependencies
+│   │   │   │   ├── minio
+│   │   │   │   │   No dependencies
+│   │   │   │   └── rollout-operator
+│   │   │   │   │   No dependencies
+├── sx-metallb
+│   ✓ metallb (metallb) 0.15.3 ok
+│   │   ├── metallb
+│   │   │   📦 crds 0.15.3 unpacked
+│   │   │   📦 frr-k8s 0.0.21 unpacked
+│   │   │   │   ├── crds
+│   │   │   │   │   No dependencies
+│   │   │   │   ├── frr-k8s
+│   │   │   │   │   📦 crds 0.0.21 unpacked
+│   │   │   │   │   │   └── crds
+│   │   │   │   │   │   │   No dependencies
+├── sx-mimir
+│   ✓ mimir-distributed (mimir) 6.0.5 ok
+│   │   ├── mimir-distributed
+│   │   │   📦 minio (minio) 5.4.0 unpacked
+│   │   │   📦 grafana-agent-operator (grafana-agent-operator) 0.5.1 unpacked
+│   │   │   📦 rollout-operator (rollout_operator) 0.37.1 unpacked
+│   │   │   │   ├── grafana-agent-operator
+│   │   │   │   │   No dependencies
+│   │   │   │   ├── minio
+│   │   │   │   │   No dependencies
+│   │   │   │   └── rollout-operator
+│   │   │   │   │   No dependencies
+├── sx-minio
+│   ✓ minio (minio) 5.4.0 ok
+│   │   └── minio
+│   │   │   No dependencies
+└── team-onboarding
+│   No dependencies
+├── sx-tempo
+│   ✓ tempo (tempo) 1.24.4 ok
+│   │   └── tempo
+│   │   │   No dependencies
+├── sx-testkube
+│   ✓ testkube 2.5.7 ok
+│   │   ├── testkube
+│   │   │   📦 testkube-operator 2.x.x-x unpacked
+│   │   │   📦 mongodb 8.0.15-0 unpacked
+│   │   │   📦 postgresql 0.1.0 unpacked
+│   │   │   📦 nats 1.2.6-4 unpacked
+│   │   │   📦 testkube-api 2.x.x-x unpacked
+│   │   │   📦 global 0.x.x-x unpacked
+│   │   │   │   ├── global
+│   │   │   │   │   No dependencies
+│   │   │   │   ├── mongodb
+│   │   │   │   │   📦 common 2.26.0 unpacked
+│   │   │   │   │   │   ├── common
+│   │   │   │   │   │   │   No dependencies
+│   │   │   │   ├── nats
+│   │   │   │   │   No dependencies
+│   │   │   │   ├── postgresql
+│   │   │   │   │   📦 common 2.26.0 unpacked
+│   │   │   │   │   │   ├── common
+│   │   │   │   │   │   │   No dependencies
+│   │   │   │   ├── testkube-api
+│   │   │   │   │   ✗ global 0.1.3 missing
+│   │   │   │   └── testkube-operator
+│   │   │   │   │   ✗ global 0.1.3 missing
+├── sx-trivy
+│   ✓ trivy-operator 0.31.0 ok
+│   │   └── trivy-operator
+│   │   │   No dependencies
+├── sx-vault
+│   ✓ vault 0.32.0 ok
+│   │   └── vault
+│   │   │   No dependencies
+├── sx-velero-ui
+│   ✓ vui 1.0.6 ok
+│   │   └── vui
+│   │   │   No dependencies
+├── sx-velero
+│   ✓ velero (velero) 11.3.2 ok
+│   │   └── velero
+│   │   │   No dependencies
